@@ -1,0 +1,9 @@
+1. 使用pip install nltk命令安装NLTK库
+2. 在python中执行
+   import nltk
+   nltk.download()
+   在弹出的用户界面中勾选all 然后download
+3. 把MyEnglish文件夹放在/…/nltk_data/corpora/stopwords/ 下
+4. 运行代码
+
+注意：MyEnglish是一些过于简单的初级词汇，只要考研文章出出现里面的单词都会被排除，如run，apple等，你也可以打开然后自定义添加一些不想要背的单词，一个单词占一行
